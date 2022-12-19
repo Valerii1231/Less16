@@ -1,0 +1,18 @@
+.work {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  row-gap: 10px;
+  margin-left: 150px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 135%;
+  color: #0F2D4A;
+}
+.work .work1 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #0F2D4A;
+}

@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+  .title3 {
+    text-align: center;
+    margin-top: 21px;
+  }
+  .title3 h2 {
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+    color: #1B1D1F;
+    margin-bottom: 16px;
+  }
+  .title3 p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #1B1D1F;
+    margin-bottom: 44px;
+  }
+}

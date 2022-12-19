@@ -1,0 +1,11 @@
+.contact2 {
+  display: flex;
+  column-gap: 30px;
+  margin-bottom: 12px;
+}
+.contact2 a {
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+}

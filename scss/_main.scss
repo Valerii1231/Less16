@@ -1,0 +1,22 @@
+article {
+    max-width: 1440px;
+    margin: 0 auto;
+
+    .main {
+        background-image: url(./background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        background-position: center center;
+        height: 670px;
+
+        & .container {
+            padding: 1px 25px 0 25px;
+            box-sizing: border-box;
+            width: 1170px;
+            margin: 0 auto;
+        }
+    }
+}
+
+

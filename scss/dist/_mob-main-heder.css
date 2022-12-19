@@ -1,0 +1,56 @@
+@media (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  header .logo {
+    display: inline-flex;
+    column-gap: 5px;
+    margin-right: 5px;
+  }
+  header .logo .logo h2 {
+    font-family: "Sofia Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 120%;
+    color: #46B1DE;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  header .logo .logo p {
+    font-family: "Sofia Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #46B1DE;
+    flex: 1;
+  }
+  header .logo .logo img {
+    width: 40px;
+  }
+  header menu {
+    display: none;
+  }
+  header .pfone {
+    display: flex;
+    margin-top: 5px;
+    width: 180px;
+    height: 20px;
+    justify-content: start;
+  }
+  header .pfone .pfone-img1 {
+    width: 20px;
+    height: 20px;
+  }
+  header .pfone .pfone p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #1B1D1F;
+  }
+  header .header-language {
+    display: none;
+  }
+}

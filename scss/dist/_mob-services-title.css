@@ -1,0 +1,20 @@
+@media (max-width: 768px) {
+  .what_services {
+    margin: 0 auto;
+    padding: 0 25px 0 25px;
+  }
+  .what_services .content {
+    width: auto;
+  }
+  .what_services .content h2 {
+    font-weight: 400;
+    font-size: 34px;
+    color: #1B1D1F;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .what_services .content h2 span {
+    color: #46B1DE;
+  }
+}

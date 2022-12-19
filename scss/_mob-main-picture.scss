@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+    .picture {
+        position: absolute;
+        bottom: -170px;
+        display: block;
+        left: 55%;
+        transform: translate(-50%, -50%);
+    }
+
+    .picture img {
+        width: 220px;
+    }
+}

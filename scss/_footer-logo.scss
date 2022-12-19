@@ -1,0 +1,43 @@
+footer {
+    width: auto;
+    height: auto;
+    background: linear-gradient(91.75deg, #A1C7D4 18.06%, #0680AA 98.16%);
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    column-gap:430px;
+    padding: 55px 174px 0 112px;
+    @extend  %margin;
+
+    .footer-logo {
+        display: flex;
+        margin-bottom: 30px;
+        font-size: 40px;
+
+        & img {
+            margin-right: 10px;
+        }
+
+        & h5 {
+            align-self: center;
+            font-family: 'Sofia Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 38px;
+            color: $footerColor;
+        }
+
+        & span {
+            font-family: 'Sofia Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 26px;
+            color: $footerColor;
+        }
+
+    }
+
+}
+
+
+

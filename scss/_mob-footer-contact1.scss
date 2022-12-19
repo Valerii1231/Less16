@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    .contact1 {
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        margin-bottom: 12px;
+
+        .contacts a {
+            font-weight: 400;
+            font-size: 20px;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+    }
+}

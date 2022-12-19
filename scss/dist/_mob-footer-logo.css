@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+  footer {
+    width: auto;
+    height: auto;
+    background: linear-gradient(91.75deg, #A1C7D4 18.06%, #0680AA 98.16%);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 25px;
+    column-gap: 34%;
+    padding: 30px;
+    box-sizing: border-box;
+  }
+
+  .footer-logo {
+    display: flex;
+    margin-bottom: 30px;
+    font-size: 40px;
+  }
+
+  .footer-logo img {
+    margin-right: 10px;
+  }
+
+  .footer-logo h5 {
+    align-self: center;
+    font-family: "Sofia Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #0F2D4A;
+  }
+
+  .footer-logo span {
+    font-family: "Sofia Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #0F2D4A;
+  }
+}

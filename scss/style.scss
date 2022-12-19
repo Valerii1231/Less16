@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+$mainColor:#46B1DE;
+$blackColor: #1B1D1F;
+$footerColor:#0F2D4A;
+
+@font-face {
+    font-family: 'Sofia Sans';
+    font-display: swap;
+    src: url(../CSS/SofiaSans.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+@import '_sectionMargin';
+
+@import '_body';
+@import '_main';
+@import '_main-heder';
+@import '_main-title_btn';
+@import '_main-cards';
+@import '_main-picture';
+
+@import '_services-title';
+@import '_services-circle';
+@import '_services-boxs';
+
+@import '_make-box';
+@import '_make-title';
+@import '_make-button';
+@import '_make-img';
+
+@import '_footer-logo';
+@import '_footer-home';
+@import '_footer-work';
+@import '_footer-contacts';
+@import '_footer-contact1';
+@import '_footer-contact2';
+@import '_footer-copyrigth';
+
+
+@import '_mob-main';
+@import '_mob-main-heder';
+@import '_mob-main-title_btn';
+@import '_mob-main-cards';
+@import '_mob-main-picture';
+
+@import '_mob-services-title';
+@import '_mob-services-boxs';
+@import '_mob-services-circle';
+
+@import '_mob-make-box';
+@import '_mob-make-title';
+@import '_mob-make-button';
+@import '_mob-make-img';
+
+@import '_mob-footer-logo';
+@import '_mob-footer-home';
+@import '_mob-footer-work';
+@import '_mob-footer-contacts';
+@import '_mob-footer-contact1';
+@import '_mob-footer-contact2';
+@import '_mob-footer-copyrigth';
+
+

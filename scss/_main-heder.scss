@@ -1,0 +1,98 @@
+header {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 24px;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    .logo {
+        display: flex;
+        justify-content: flex-start;
+        column-gap: 10px;
+        margin-right: 60px;
+
+        &.logo img {
+            width: 50px;
+        }
+
+        .logo-title h2 {
+            font-family: 'Sofia Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 38px;
+            line-height: 80%;
+            color: $mainColor;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+
+        .logo-title p {
+            font-family: 'Sofia Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            color: $mainColor;
+        }
+    }
+
+    menu {
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: start;
+        grid-column-gap: 60px;
+        margin: 5px 60px 0 40px;
+
+        & a {
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 16px;
+            flex: 1;
+            color: #1B1D1F;
+        }
+    }
+
+    .pfone {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 5px;
+        margin-top: 5px;
+
+        & .pfone p {
+            font-weight: 400;
+            font-size: 16px;
+            color: #1B1D1F;
+            margin-left: 10px;
+        }
+    }
+
+    .header-language {
+        margin-left: 14px;
+        margin-top: 4px;
+                   
+        .header-language-UA {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 20px;
+            color: #000000;
+            text-decoration: none;
+            margin-right: 8px;
+        }
+
+        .header-language-EN {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 20px;
+            color: #000000;
+            text-decoration: none;
+            margin-left: 8px;
+        }
+
+        .line-lengv {
+            border: 1px solid #1B1D1F;
+            transform: rotate(90deg);
+        }
+
+    }
+    
+}

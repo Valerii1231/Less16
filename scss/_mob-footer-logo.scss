@@ -1,0 +1,46 @@
+@media (max-width: 768px) {
+    footer {
+        width: auto;
+        height: auto;
+        background: linear-gradient(91.75deg, #A1C7D4 18.06%, #0680AA 98.16%);
+        display: flex;   
+        align-items: start;
+        row-gap: 25px;
+        column-gap: 100px;
+        padding: 30px;
+        box-sizing: border-box;
+        @extend %margin;
+
+        .footer-logo {
+            display: flex;
+            margin-bottom: 30px;
+            font-size: 40px;
+
+            & img {
+                margin-right: 10px;
+            }
+
+            & h5 {
+                align-self: center;
+                font-family: 'Sofia Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 30px;
+                color: $footerColor;
+            }
+
+            & span {
+                font-family: 'Sofia Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                color: $footerColor;
+                margin-top: -10px;
+            }
+
+        }
+
+    }
+
+
+}

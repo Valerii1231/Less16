@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+  article {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  article .main {
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+    height: 678px;
+  }
+  article .main .container {
+    width: auto;
+    padding: 1px 25px 0 25px;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+    .home {
+        display: flex;
+        font-weight: 400;
+        font-size: 20px;
+        color: $footerColor;
+
+        .language-UA {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 20px;
+            color: #000000;
+            text-decoration: none;
+            margin-right: 7px;
+        }
+
+        .language-EN {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 20px;
+            color: #000000;
+            text-decoration: none;
+            margin-left: 8px;
+        }
+
+        .line-lengv {
+            border: 1px solid #1B1D1F;
+            transform: rotate(90deg);
+        }
+    }
+
+
+}
