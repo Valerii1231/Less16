@@ -58,8 +58,8 @@ header .logo {
        column-gap: 10px;
   margin-right: 60px;
 }
-header .logo.logo img {
-  width: 50px;
+header .logo .logo img {
+  width: 0px;
 }
 header .logo .logo-title h2 {
   font-family: "Sofia Sans";
